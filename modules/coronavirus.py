@@ -48,4 +48,5 @@ def coronavirus():
     message += "ŚWIAT, zarażeni: " + str(countries["World"][1]).replace(".0","") + " (+" + str(countries["World"][2]).replace(".0","") + ")\n"
     message += "ŚWIAT, aktywne: " + str(countries["World"][7]).replace(".0","") + "\n"
     message += "ŚWIAT, śmierci: " + str(countries["World"][3]).replace(".0","") + " (+" + str(countries["World"][4]).replace(".0","") + ")\n\n"
+    message += "Polska, zarażeni w skali Sasina :" (+" + str(countries["Poland"][2]).replace(".0","")/70000000 + ")\n\n"
     return message
